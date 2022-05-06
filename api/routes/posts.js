@@ -67,7 +67,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// ----------------- Get Posts -----------------
+// ----------------- Get All Posts -----------------
 router.get("/", async (req, res) => {
   const username = req.query.user;
   const catName = req.query.cat;
